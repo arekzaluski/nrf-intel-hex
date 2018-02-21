@@ -12,7 +12,8 @@
     "lintfix": "eslint --fix intel-hex.js",
     "test": "rollup -c rollup.config.js; jasmine",
     "rollup": "rollup -c rollup.config.js",
-    "docs": "jsdoc intel-hex.js -t node_modules/minami/ -d doc/"
+    "docs": "jsdoc intel-hex.js -t node_modules/minami/ -d doc/",
+    "prepare": "rollup -c rollup.config.js"
   },
   "devDependencies": {
     "eslint": "^4.10.0",
